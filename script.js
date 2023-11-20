@@ -54,7 +54,7 @@ function verifyAccount(){
     const codeBank= document.getElementById("bank").value;
     const accountNumber = document.getElementById("account").value;
 
-/* The constructed url is used to make http request to the paystack api to resolve bank details based on 
+/* The constructed url is used to make http request to the o paystack api to resolve bank details based on 
 the account the client provided for us. Any string that is embedded within the ${} is called template
 literal */ 
 
